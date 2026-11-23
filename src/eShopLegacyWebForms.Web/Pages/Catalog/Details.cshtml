@@ -1,0 +1,68 @@
+@page "/Catalog/Details/{id:int}"
+@model eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel
+@{
+    ViewData["Title"] = "Catalog Item Details";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">Catalog Item Details</h1>
+        </div>
+    </div>
+
+    @if (Model.Item == null)
+    {
+        <div class="alert alert-warning">Item not found.</div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/pics/@Model.Item.PictureFileName" class="img-fluid rounded shadow"
+                     alt="@Model.Item.Name"
+                     onerror="this.src='/images/brand.png'" />
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">@Model.Item.Name</h2>
+                        <p class="card-text text-muted">@Model.Item.Description</p>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">Price</dt>
+                            <dd class="col-sm-8">@Model.Item.Price.ToString("C")</dd>
+
+                            <dt class="col-sm-4">Brand</dt>
+                            <dd class="col-sm-8">@Model.Item.CatalogBrandName</dd>
+
+                            <dt class="col-sm-4">Type</dt>
+                            <dd class="col-sm-8">@Model.Item.CatalogTypeName</dd>
+
+                            <dt class="col-sm-4">Available Stock</dt>
+                            <dd class="col-sm-8">@Model.Item.AvailableStock</dd>
+
+                            <dt class="col-sm-4">Restock Threshold</dt>
+                            <dd class="col-sm-8">@Model.Item.RestockThreshold</dd>
+
+                            <dt class="col-sm-4">Max Stock Threshold</dt>
+                            <dd class="col-sm-8">@Model.Item.MaxStockThreshold</dd>
+
+                            <dt class="col-sm-4">On Reorder</dt>
+                            <dd class="col-sm-8">@(Model.Item.OnReorder ? "Yes" : "No")</dd>
+
+                            <dt class="col-sm-4">Picture File</dt>
+                            <dd class="col-sm-8">@Model.Item.PictureFileName</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 d-flex gap-2">
+            <a asp-page="./Edit" asp-route-id="@Model.Item.Id" class="btn btn-warning">Edit</a>
+            <a asp-page="./Delete" asp-route-id="@Model.Item.Id" class="btn btn-danger">Delete</a>
+            <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    }
+</div>

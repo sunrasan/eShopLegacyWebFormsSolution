@@ -1,0 +1,83 @@
+@page "/Catalog"
+@model eShopLegacyWebForms.Web.Pages.Catalog.IndexModel
+@{
+    ViewData["Title"] = "Catalog";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">Catalog</h1>
+            <a asp-page="./Create" class="btn btn-primary mb-3">
+                <i class="bi bi-plus-circle"></i> Create New Item
+            </a>
+        </div>
+    </div>
+
+    @if (!Model.ViewModel.Items.Any())
+    {
+        <div class="alert alert-info">No catalog items found.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+            @foreach (var item in Model.ViewModel.Items)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="~/pics/@item.PictureFileName" class="card-img-top" alt="@item.Name"
+                             style="height: 200px; object-fit: cover;"
+                             onerror="this.src='/images/brand.png'" />
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text text-muted small">@item.Description</p>
+                            <p class="card-text">
+                                <strong>Price:</strong> @item.Price.ToString("C")<br />
+                                <strong>Brand:</strong> @item.CatalogBrandName<br />
+                                <strong>Type:</strong> @item.CatalogTypeName<br />
+                                <strong>Stock:</strong> @item.AvailableStock
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex gap-2">
+                            <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Details</a>
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Pagination -->
+        @if (Model.ViewModel.TotalPages > 1)
+        {
+            <nav aria-label="Catalog pagination">
+                <ul class="pagination justify-content-center">
+                    @if (Model.ViewModel.ActualPage > 0)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-page="./Index" asp-route-pageIndex="@(Model.ViewModel.ActualPage - 1)">Previous</a>
+                        </li>
+                    }
+                    @for (int i = 0; i < Model.ViewModel.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == Model.ViewModel.ActualPage ? "active" : "")">
+                            <a class="page-link" asp-page="./Index" asp-route-pageIndex="@i">@(i + 1)</a>
+                        </li>
+                    }
+                    @if (Model.ViewModel.ActualPage < Model.ViewModel.TotalPages - 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-page="./Index" asp-route-pageIndex="@(Model.ViewModel.ActualPage + 1)">Next</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
+
+        <p class="text-muted text-center">
+            Showing @Model.ViewModel.Items.Count() of @Model.ViewModel.TotalItems items
+            (Page @(Model.ViewModel.ActualPage + 1) of @Model.ViewModel.TotalPages)
+        </p>
+    }
+</div>

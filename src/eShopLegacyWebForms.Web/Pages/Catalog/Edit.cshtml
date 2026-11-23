@@ -1,0 +1,97 @@
+@page "/Catalog/Edit/{id:int}"
+@model eShopLegacyWebForms.Web.Pages.Catalog.EditModel
+@{
+    ViewData["Title"] = "Edit Catalog Item";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="mb-4">Edit Catalog Item</h1>
+
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+                <input type="hidden" asp-for="Input.Id" />
+
+                <div class="mb-3">
+                    <label asp-for="Input.Name" class="form-label"></label>
+                    <input asp-for="Input.Name" class="form-control" />
+                    <span asp-validation-for="Input.Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.Description" class="form-label"></label>
+                    <textarea asp-for="Input.Description" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Input.Description" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.Price" class="form-label"></label>
+                    <input asp-for="Input.Price" class="form-control" type="number" step="0.01" />
+                    <span asp-validation-for="Input.Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.CatalogBrandId" class="form-label"></label>
+                    <select asp-for="Input.CatalogBrandId" class="form-select">
+                        @foreach (var brand in Model.Input.Brands)
+                        {
+                            <option value="@brand.Value" selected="@brand.Selected">@brand.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Input.CatalogBrandId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.CatalogTypeId" class="form-label"></label>
+                    <select asp-for="Input.CatalogTypeId" class="form-select">
+                        @foreach (var type in Model.Input.Types)
+                        {
+                            <option value="@type.Value" selected="@type.Selected">@type.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Input.CatalogTypeId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.PictureFileName" class="form-label"></label>
+                    <input asp-for="Input.PictureFileName" class="form-control" />
+                    <span asp-validation-for="Input.PictureFileName" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="Input.AvailableStock" class="form-label"></label>
+                        <input asp-for="Input.AvailableStock" class="form-control" type="number" />
+                        <span asp-validation-for="Input.AvailableStock" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="Input.RestockThreshold" class="form-label"></label>
+                        <input asp-for="Input.RestockThreshold" class="form-control" type="number" />
+                        <span asp-validation-for="Input.RestockThreshold" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="Input.MaxStockThreshold" class="form-label"></label>
+                        <input asp-for="Input.MaxStockThreshold" class="form-control" type="number" />
+                        <span asp-validation-for="Input.MaxStockThreshold" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input asp-for="Input.OnReorder" class="form-check-input" type="checkbox" />
+                    <label asp-for="Input.OnReorder" class="form-check-label">On Reorder</label>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-warning">Save Changes</button>
+                    <a asp-page="./Details" asp-route-id="@Model.Input.Id" class="btn btn-info">Details</a>
+                    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

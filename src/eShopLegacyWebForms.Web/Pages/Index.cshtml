@@ -1,0 +1,49 @@
+@page
+@model eShopLegacyWebForms.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center py-5">
+            <img src="~/images/main_banner.png" class="img-fluid mb-4" alt="eShop Banner"
+                 onerror="this.style.display='none'" />
+            <h1 class="display-4">Welcome to eShop</h1>
+            <p class="lead">Your one-stop shop for .NET branded merchandise.</p>
+            <a asp-page="/Catalog/Index" class="btn btn-primary btn-lg mt-3">
+                <i class="bi bi-grid"></i> Browse Catalog
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <i class="bi bi-collection display-4 text-primary"></i>
+                    <h5 class="card-title mt-3">Wide Selection</h5>
+                    <p class="card-text">Browse our extensive catalog of .NET branded products.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <i class="bi bi-shield-check display-4 text-success"></i>
+                    <h5 class="card-title mt-3">Quality Products</h5>
+                    <p class="card-text">All products are carefully selected for quality.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <i class="bi bi-truck display-4 text-info"></i>
+                    <h5 class="card-title mt-3">Fast Delivery</h5>
+                    <p class="card-text">Quick and reliable shipping to your door.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+@page
+@model eShopLegacyWebForms.Web.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1>About eShop Legacy</h1>
+            <p class="lead">This application has been migrated from ASP.NET Web Forms 4.7.2 to .NET 8 using clean architecture principles.</p>
+
+            <h2>Migration Details</h2>
+            <ul>
+                <li>Migrated from ASP.NET Web Forms to Razor Pages</li>
+                <li>Replaced Entity Framework 6 with EF Core 8</li>
+                <li>Replaced log4net with Microsoft.Extensions.Logging / Serilog</li>
+                <li>Replaced Autofac with built-in .NET DI container</li>
+                <li>Replaced Web.config with appsettings.json</li>
+                <li>Replaced Global.asax with Program.cs</li>
+                <li>Implemented clean architecture (Domain, Application, Infrastructure, Web)</li>
+            </ul>
+
+            <h2>Architecture</h2>
+            <p>The application follows clean architecture with four layers:</p>
+            <ul>
+                <li><strong>Domain</strong> - Entities, interfaces, domain logic</li>
+                <li><strong>Application</strong> - Business logic, services, DTOs, AutoMapper</li>
+                <li><strong>Infrastructure</strong> - EF Core, repositories, data access</li>
+                <li><strong>Web</strong> - Razor Pages, ViewModels, UI</li>
+            </ul>
+        </div>
+    </div>
+</div>
