@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W2ERJkc7r5k=",
+  "dgSpecHash": "Qq1POKToG10=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/eShopLegacyWebForms.IntegrationTests.csproj",
   "expectedPackageFiles": [
-    "/app/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/app/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/app/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/app/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/app/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
@@ -14,7 +14,7 @@
     "/app/.nuget/packages/microsoft.aspnetcore.testhost/8.0.0/microsoft.aspnetcore.testhost.8.0.0.nupkg.sha512",
     "/app/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/app/.nuget/packages/microsoft.codecoverage/17.9.0/microsoft.codecoverage.17.9.0.nupkg.sha512",
-    "/app/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/app/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/app/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/app/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/app/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
