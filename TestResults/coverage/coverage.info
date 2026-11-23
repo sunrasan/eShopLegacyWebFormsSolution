@@ -1,0 +1,2091 @@
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Domain/Exceptions/CatalogItemNotFoundException.cs
+FN:8,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.Int32)
+FNDA:0,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.Int32)
+DA:9,0
+DA:10,0
+DA:11,0
+FN:12,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.String)
+FNDA:0,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.String)
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void eShopLegacyWebForms.Domain.Exceptions.CatalogItemNotFoundException::.ctor(System.String,System.Exception)
+DA:18,0
+DA:19,0
+DA:20,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Domain/Entities/CatalogBrand.cs
+FN:12,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogBrand::get_Id()
+FNDA:12,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogBrand::get_Id()
+DA:13,12
+FN:14,System.String eShopLegacyWebForms.Domain.Entities.CatalogBrand::get_Brand()
+FNDA:27,System.String eShopLegacyWebForms.Domain.Entities.CatalogBrand::get_Brand()
+DA:15,27
+FN:7,System.Void eShopLegacyWebForms.Domain.Entities.CatalogBrand::.ctor()
+FNDA:15,System.Void eShopLegacyWebForms.Domain.Entities.CatalogBrand::.ctor()
+DA:8,15
+DA:9,15
+DA:10,15
+DA:11,15
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Domain/Entities/CatalogItem.cs
+FN:19,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Id()
+FNDA:15,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Id()
+DA:20,15
+FN:23,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Name()
+FNDA:31,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Name()
+DA:24,31
+FN:25,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Description()
+FNDA:16,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Description()
+DA:26,16
+FN:30,System.Decimal eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Price()
+FNDA:13,System.Decimal eShopLegacyWebForms.Domain.Entities.CatalogItem::get_Price()
+DA:31,13
+FN:33,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_PictureFileName()
+FNDA:29,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_PictureFileName()
+DA:34,29
+FN:35,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_PictureUri()
+FNDA:16,System.String eShopLegacyWebForms.Domain.Entities.CatalogItem::get_PictureUri()
+DA:36,16
+FN:38,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogTypeId()
+FNDA:13,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogTypeId()
+DA:39,13
+FN:41,eShopLegacyWebForms.Domain.Entities.CatalogType eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogType()
+FNDA:0,eShopLegacyWebForms.Domain.Entities.CatalogType eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogType()
+DA:42,0
+FN:44,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogBrandId()
+FNDA:13,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogBrandId()
+DA:45,13
+FN:47,eShopLegacyWebForms.Domain.Entities.CatalogBrand eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogBrand()
+FNDA:0,eShopLegacyWebForms.Domain.Entities.CatalogBrand eShopLegacyWebForms.Domain.Entities.CatalogItem::get_CatalogBrand()
+DA:48,0
+FN:51,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_AvailableStock()
+DA:52,0
+FN:55,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_RestockThreshold()
+DA:56,0
+FN:59,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogItem::get_MaxStockThreshold()
+DA:60,0
+FN:64,System.Boolean eShopLegacyWebForms.Domain.Entities.CatalogItem::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Domain.Entities.CatalogItem::get_OnReorder()
+DA:65,0
+FN:11,System.Void eShopLegacyWebForms.Domain.Entities.CatalogItem::.ctor()
+FNDA:16,System.Void eShopLegacyWebForms.Domain.Entities.CatalogItem::.ctor()
+DA:12,16
+DA:13,16
+DA:14,16
+DA:15,16
+DA:16,16
+DA:17,16
+DA:18,16
+LF:21
+LH:15
+BRF:0
+BRH:0
+FNF:15
+FNH:9
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Domain/Entities/CatalogType.cs
+FN:12,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogType::get_Id()
+FNDA:12,System.Int32 eShopLegacyWebForms.Domain.Entities.CatalogType::get_Id()
+DA:13,12
+FN:14,System.String eShopLegacyWebForms.Domain.Entities.CatalogType::get_Type()
+FNDA:27,System.String eShopLegacyWebForms.Domain.Entities.CatalogType::get_Type()
+DA:15,27
+FN:7,System.Void eShopLegacyWebForms.Domain.Entities.CatalogType::.ctor()
+FNDA:15,System.Void eShopLegacyWebForms.Domain.Entities.CatalogType::.ctor()
+DA:8,15
+DA:9,15
+DA:10,15
+DA:11,15
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Program.cs
+FN:4,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:5,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:18,0
+DA:21,0
+DA:24,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:38,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:56,0
+DA:58,0
+DA:60,0
+DA:63,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+BRDA:41,300,0,0
+BRDA:41,300,1,0
+LF:46
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/ViewModels/CatalogViewModels.cs
+FN:9,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_Items()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_Items()
+DA:10,0
+FN:10,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_ActualPage()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_ActualPage()
+DA:11,0
+FN:11,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_ItemsPerPage()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_ItemsPerPage()
+DA:12,0
+FN:12,System.Int64 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_TotalItems()
+FNDA:0,System.Int64 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_TotalItems()
+DA:13,0
+FN:13,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_TotalPages()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel::get_TotalPages()
+DA:14,0
+FN:21,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Id()
+DA:22,0
+FN:22,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Name()
+DA:23,0
+FN:23,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Description()
+DA:24,0
+FN:24,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_Price()
+DA:25,0
+FN:25,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_PictureFileName()
+DA:26,0
+FN:26,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_PictureUri()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_PictureUri()
+DA:27,0
+FN:27,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogTypeId()
+DA:28,0
+FN:28,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogTypeName()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogTypeName()
+DA:29,0
+FN:29,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogBrandId()
+DA:30,0
+FN:30,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogBrandName()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_CatalogBrandName()
+DA:31,0
+FN:31,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_AvailableStock()
+DA:32,0
+FN:32,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_RestockThreshold()
+DA:33,0
+FN:33,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_MaxStockThreshold()
+DA:34,0
+FN:34,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel::get_OnReorder()
+DA:35,0
+FN:45,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Name()
+DA:46,0
+FN:48,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Description()
+DA:49,0
+FN:54,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Price()
+DA:55,0
+FN:57,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_PictureFileName()
+DA:58,0
+FN:61,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_CatalogTypeId()
+DA:62,0
+FN:65,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_CatalogBrandId()
+DA:66,0
+FN:69,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_AvailableStock()
+DA:70,0
+FN:73,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_RestockThreshold()
+DA:74,0
+FN:77,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_MaxStockThreshold()
+DA:78,0
+FN:79,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_OnReorder()
+DA:80,0
+FN:81,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Brands()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Brands()
+DA:82,0
+FN:82,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Types()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel::get_Types()
+DA:83,0
+FN:90,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Id()
+DA:91,0
+FN:95,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Name()
+DA:96,0
+FN:98,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Description()
+DA:99,0
+FN:104,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Price()
+DA:105,0
+FN:107,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_PictureFileName()
+DA:108,0
+FN:111,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_CatalogTypeId()
+DA:112,0
+FN:115,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_CatalogBrandId()
+DA:116,0
+FN:119,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_AvailableStock()
+DA:120,0
+FN:123,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_RestockThreshold()
+DA:124,0
+FN:127,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_MaxStockThreshold()
+DA:128,0
+FN:129,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_OnReorder()
+DA:130,0
+FN:131,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Brands()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Brands()
+DA:132,0
+FN:132,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Types()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel> eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel::get_Types()
+DA:133,0
+FN:140,System.String eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Value()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Value()
+DA:141,0
+FN:141,System.String eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Text()
+FNDA:0,System.String eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Text()
+DA:142,0
+FN:142,System.Boolean eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Selected()
+FNDA:0,System.Boolean eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel::get_Selected()
+DA:143,0
+LF:47
+LH:0
+BRF:0
+BRH:0
+FNF:47
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/About.cshtml.cs
+FN:17,System.Void eShopLegacyWebForms.Web.Pages.AboutModel::OnGet()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.AboutModel::OnGet()
+DA:18,0
+DA:19,0
+DA:20,0
+FN:11,System.Void eShopLegacyWebForms.Web.Pages.AboutModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.AboutModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.AboutModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.AboutModel>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Contact.cshtml.cs
+FN:17,System.Void eShopLegacyWebForms.Web.Pages.ContactModel::OnGet()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.ContactModel::OnGet()
+DA:18,0
+DA:19,0
+DA:20,0
+FN:11,System.Void eShopLegacyWebForms.Web.Pages.ContactModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.ContactModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.ContactModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.ContactModel>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Error.cshtml.cs
+FN:13,System.String eShopLegacyWebForms.Web.Pages.ErrorModel::get_RequestId()
+FNDA:0,System.String eShopLegacyWebForms.Web.Pages.ErrorModel::get_RequestId()
+DA:14,0
+FN:14,System.Boolean eShopLegacyWebForms.Web.Pages.ErrorModel::get_ShowRequestId()
+FNDA:0,System.Boolean eShopLegacyWebForms.Web.Pages.ErrorModel::get_ShowRequestId()
+DA:15,0
+FN:24,System.Void eShopLegacyWebForms.Web.Pages.ErrorModel::OnGet()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.ErrorModel::OnGet()
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+BRDA:26,8,0,0
+BRDA:26,8,1,0
+BRDA:26,20,0,0
+BRDA:26,20,1,0
+FN:18,System.Void eShopLegacyWebForms.Web.Pages.ErrorModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.ErrorModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.ErrorModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.ErrorModel>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+LF:10
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Index.cshtml.cs
+FN:17,System.Void eShopLegacyWebForms.Web.Pages.IndexModel::OnGet()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.IndexModel::OnGet()
+DA:18,0
+DA:19,0
+DA:20,0
+FN:11,System.Void eShopLegacyWebForms.Web.Pages.IndexModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.IndexModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.IndexModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.IndexModel>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/About.cshtml
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Pages_About/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Pages_About/<ExecuteAsync>d__0::MoveNext()
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Contact.cshtml
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Pages_Contact/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Pages_Contact/<ExecuteAsync>d__0::MoveNext()
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Error.cshtml
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Pages_Error/<ExecuteAsync>d__9::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Pages_Error/<ExecuteAsync>d__9::MoveNext()
+DA:4,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:17,0
+BRDA:12,91,0,0
+BRDA:12,91,1,0
+BRDA:17,500,0,0
+BRDA:17,500,1,0
+LF:5
+LH:0
+BRF:4
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Index.cshtml
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Pages_Index/<ExecuteAsync>d__14::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Pages_Index/<ExecuteAsync>d__14::MoveNext()
+DA:4,0
+BRDA:4,446,0,0
+BRDA:4,446,1,0
+BRDA:4,960,0,0
+BRDA:4,960,1,0
+LF:1
+LH:0
+BRF:4
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/_ViewStart.cshtml
+FN:1,System.Void eShopLegacyWebForms.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Shared/_Layout.cshtml
+FN:5,System.Void eShopLegacyWebForms.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_0>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_0>d::MoveNext()
+DA:6,0
+BRDA:6,551,0,0
+BRDA:6,551,1,0
+FN:43,System.Void eShopLegacyWebForms.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_1>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_1>d::MoveNext()
+DA:44,0
+DA:49,0
+DA:56,0
+BRDA:44,474,0,0
+BRDA:44,474,1,0
+BRDA:44,988,0,0
+BRDA:44,988,1,0
+BRDA:44,1502,0,0
+BRDA:44,1502,1,0
+BRDA:44,2016,0,0
+BRDA:44,2016,1,0
+BRDA:44,2530,0,0
+BRDA:44,2530,1,0
+BRDA:49,3243,0,0
+BRDA:49,3243,1,0
+LF:4
+LH:0
+BRF:14
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Create.cshtml.cs
+FN:18,eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel::get_Input()
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogItemCreateViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel::get_Input()
+DA:19,0
+FN:20,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.CreateModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.CreateModel>)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+BRDA:23,22,0,0
+BRDA:23,22,1,0
+BRDA:24,44,0,0
+BRDA:24,44,1,0
+FN:77,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<>c::<PopulateDropdownsAsync>b__9_0(eShopLegacyWebForms.Domain.Entities.CatalogBrand)
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<>c::<PopulateDropdownsAsync>b__9_0(eShopLegacyWebForms.Domain.Entities.CatalogBrand)
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+FN:83,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<>c::<PopulateDropdownsAsync>b__9_1(eShopLegacyWebForms.Domain.Entities.CatalogType)
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<>c::<PopulateDropdownsAsync>b__9_1(eShopLegacyWebForms.Domain.Entities.CatalogType)
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+FN:27,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<OnGetAsync>d__7::MoveNext()
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+FN:33,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<OnPostAsync>d__8::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<OnPostAsync>d__8::MoveNext()
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+BRDA:35,61,0,0
+BRDA:35,61,1,0
+BRDA:45,347,0,0
+BRDA:45,347,1,0
+FN:73,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<PopulateDropdownsAsync>d__9::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.CreateModel/<PopulateDropdownsAsync>d__9::MoveNext()
+DA:74,0
+DA:75,0
+DA:76,0
+DA:89,0
+LF:54
+LH:0
+BRF:8
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Delete.cshtml.cs
+FN:16,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel::get_Item()
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel::get_Item()
+DA:17,0
+FN:18,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+FN:25,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel/<OnGetAsync>d__7::MoveNext()
+DA:26,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:63,0
+BRDA:32,228,0,0
+BRDA:32,228,1,0
+BRDA:38,440,0,0
+BRDA:38,440,1,0
+BRDA:38,452,0,0
+BRDA:38,452,1,0
+BRDA:38,497,0,0
+BRDA:38,497,1,0
+BRDA:38,509,0,0
+BRDA:38,509,1,0
+FN:65,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel/<OnPostAsync>d__8::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DeleteModel/<OnPostAsync>d__8::MoveNext()
+DA:66,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:72,0
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+LF:48
+LH:0
+BRF:14
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Details.cshtml.cs
+FN:16,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel::get_Item()
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel::get_Item()
+DA:17,0
+FN:18,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+FN:25,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.DetailsModel/<OnGetAsync>d__7::MoveNext()
+DA:26,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:63,0
+BRDA:32,228,0,0
+BRDA:32,228,1,0
+BRDA:38,440,0,0
+BRDA:38,440,1,0
+BRDA:38,452,0,0
+BRDA:38,452,1,0
+BRDA:38,497,0,0
+BRDA:38,497,1,0
+BRDA:38,509,0,0
+BRDA:38,509,1,0
+LF:37
+LH:0
+BRF:14
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Edit.cshtml.cs
+FN:18,eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel::get_Input()
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogItemEditViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel::get_Input()
+DA:19,0
+FN:20,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.EditModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.EditModel>)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+BRDA:23,22,0,0
+BRDA:23,22,1,0
+BRDA:24,44,0,0
+BRDA:24,44,1,0
+FN:111,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<>c__DisplayClass9_0::<PopulateDropdownsAsync>b__0(eShopLegacyWebForms.Domain.Entities.CatalogBrand)
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<>c__DisplayClass9_0::<PopulateDropdownsAsync>b__0(eShopLegacyWebForms.Domain.Entities.CatalogBrand)
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+FN:118,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<>c__DisplayClass9_0::<PopulateDropdownsAsync>b__1(eShopLegacyWebForms.Domain.Entities.CatalogType)
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.SelectListItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<>c__DisplayClass9_0::<PopulateDropdownsAsync>b__1(eShopLegacyWebForms.Domain.Entities.CatalogType)
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+FN:27,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<OnGetAsync>d__7::MoveNext()
+DA:28,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+BRDA:34,240,0,0
+BRDA:34,240,1,0
+FN:66,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<OnPostAsync>d__8::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<OnPostAsync>d__8::MoveNext()
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:93,0
+DA:94,0
+DA:96,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:105,0
+BRDA:68,64,0,0
+BRDA:68,64,1,0
+FN:107,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<PopulateDropdownsAsync>d__9::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.EditModel/<PopulateDropdownsAsync>d__9::MoveNext()
+DA:108,0
+DA:109,0
+DA:110,0
+DA:125,0
+LF:82
+LH:0
+BRF:8
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Index.cshtml.cs
+FN:16,eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel eShopLegacyWebForms.Web.Pages.Catalog.IndexModel::get_ViewModel()
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogIndexViewModel eShopLegacyWebForms.Web.Pages.Catalog.IndexModel::get_ViewModel()
+DA:17,0
+FN:18,System.Void eShopLegacyWebForms.Web.Pages.Catalog.IndexModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.IndexModel>)
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.IndexModel::.ctor(eShopLegacyWebForms.Domain.Interfaces.Services.ICatalogService,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Web.Pages.Catalog.IndexModel>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+BRDA:21,22,0,0
+BRDA:21,22,1,0
+BRDA:22,44,0,0
+BRDA:22,44,1,0
+FN:38,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.IndexModel/<>c::<OnGetAsync>b__8_0(eShopLegacyWebForms.Domain.Entities.CatalogItem)
+FNDA:0,eShopLegacyWebForms.Web.ViewModels.CatalogItemViewModel eShopLegacyWebForms.Web.Pages.Catalog.IndexModel/<>c::<OnGetAsync>b__8_0(eShopLegacyWebForms.Domain.Entities.CatalogItem)
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+BRDA:39,104,0,0
+BRDA:39,104,1,0
+BRDA:39,116,0,0
+BRDA:39,116,1,0
+BRDA:39,151,0,0
+BRDA:39,151,1,0
+BRDA:39,163,0,0
+BRDA:39,163,1,0
+FN:25,System.Void eShopLegacyWebForms.Web.Pages.Catalog.IndexModel/<OnGetAsync>d__8::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.IndexModel/<OnGetAsync>d__8::MoveNext()
+DA:26,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+LF:41
+LH:0
+BRF:12
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Create.cshtml
+FN:36,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<<ExecuteAsync>b__34_23>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<<ExecuteAsync>b__34_23>d::MoveNext()
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+BRDA:37,366,0,0
+BRDA:37,366,1,0
+BRDA:37,1370,1,0
+BRDA:39,1166,0,0
+BRDA:39,1166,1,0
+BRDA:37,1370,0,0
+FN:48,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<<ExecuteAsync>b__34_29>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<<ExecuteAsync>b__34_29>d::MoveNext()
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+BRDA:49,366,0,0
+BRDA:49,366,1,0
+BRDA:49,1370,1,0
+BRDA:51,1166,0,0
+BRDA:51,1166,1,0
+BRDA:49,1370,0,0
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<ExecuteAsync>d__34::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Create/<ExecuteAsync>d__34::MoveNext()
+DA:4,0
+BRDA:4,425,0,0
+BRDA:4,425,1,0
+LF:9
+LH:0
+BRF:14
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Delete.cshtml
+FN:57,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Delete/<<ExecuteAsync>b__17_2>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Delete/<<ExecuteAsync>b__17_2>d::MoveNext()
+DA:58,0
+BRDA:58,372,0,0
+BRDA:58,372,1,0
+BRDA:58,733,0,0
+BRDA:58,733,1,0
+BRDA:58,1247,0,0
+BRDA:58,1247,1,0
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Delete/<ExecuteAsync>d__17::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Delete/<ExecuteAsync>d__17::MoveNext()
+DA:4,0
+DA:12,0
+DA:13,0
+DA:16,0
+DA:18,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:39,0
+DA:42,0
+DA:45,0
+DA:62,0
+BRDA:12,135,0,0
+BRDA:13,484,0,0
+BRDA:13,484,1,0
+BRDA:12,135,1,0
+BRDA:18,1263,0,0
+BRDA:18,1263,1,0
+BRDA:45,2141,0,0
+BRDA:45,2141,1,0
+LF:13
+LH:0
+BRF:14
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Details.cshtml
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Details/<ExecuteAsync>d__16::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Details/<ExecuteAsync>d__16::MoveNext()
+DA:4,0
+DA:14,0
+DA:15,0
+DA:17,0
+DA:19,0
+DA:29,0
+DA:30,0
+DA:34,0
+DA:37,0
+DA:40,0
+DA:43,0
+DA:46,0
+DA:49,0
+DA:52,0
+DA:55,0
+DA:63,0
+DA:64,0
+DA:67,0
+BRDA:14,153,0,0
+BRDA:14,153,1,0
+BRDA:19,747,0,0
+BRDA:19,747,1,0
+BRDA:52,1388,0,0
+BRDA:52,1388,1,0
+BRDA:55,1674,0,0
+BRDA:55,1674,1,0
+BRDA:63,2038,0,0
+BRDA:63,2038,1,0
+BRDA:63,2405,0,0
+BRDA:63,2405,1,0
+BRDA:64,2769,0,0
+BRDA:64,2769,1,0
+BRDA:64,3283,0,0
+BRDA:64,3283,1,0
+LF:18
+LH:0
+BRF:16
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Edit.cshtml
+FN:86,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_0>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_0>d::MoveNext()
+DA:87,0
+BRDA:87,998,0,0
+BRDA:87,998,1,0
+BRDA:87,1667,0,0
+BRDA:87,1667,1,0
+BRDA:87,2304,0,0
+BRDA:87,2304,1,0
+BRDA:87,2941,0,0
+BRDA:87,2941,1,0
+BRDA:87,3578,0,0
+BRDA:87,3578,1,0
+BRDA:87,4217,0,0
+BRDA:87,4217,1,0
+BRDA:87,4878,0,0
+BRDA:87,4878,1,0
+BRDA:87,5517,0,0
+BRDA:87,5517,1,0
+BRDA:87,6156,0,0
+BRDA:87,6156,1,0
+BRDA:87,6871,0,0
+BRDA:87,6871,1,0
+BRDA:87,7510,0,0
+BRDA:87,7510,1,0
+BRDA:87,8149,0,0
+BRDA:87,8149,1,0
+BRDA:87,8774,0,0
+BRDA:87,8774,1,0
+BRDA:87,9413,0,0
+BRDA:87,9413,1,0
+BRDA:87,10052,0,0
+BRDA:87,10052,1,0
+BRDA:87,10677,0,0
+BRDA:87,10677,1,0
+BRDA:87,11316,0,0
+BRDA:87,11316,1,0
+BRDA:87,11955,0,0
+BRDA:87,11955,1,0
+BRDA:87,12594,0,0
+BRDA:87,12594,1,0
+BRDA:87,13233,0,0
+BRDA:87,13233,1,0
+BRDA:87,13872,0,0
+BRDA:87,13872,1,0
+BRDA:87,14565,0,0
+BRDA:87,14565,1,0
+BRDA:87,15204,0,0
+BRDA:87,15204,1,0
+BRDA:87,15843,0,0
+BRDA:87,15843,1,0
+BRDA:87,16536,0,0
+BRDA:87,16536,1,0
+BRDA:87,17175,0,0
+BRDA:87,17175,1,0
+BRDA:87,17814,0,0
+BRDA:87,17814,1,0
+BRDA:87,18507,0,0
+BRDA:87,18507,1,0
+BRDA:87,19146,0,0
+BRDA:87,19146,1,0
+BRDA:87,19839,0,0
+BRDA:87,19839,1,0
+BRDA:87,20464,0,0
+BRDA:87,20464,1,0
+BRDA:87,20832,0,0
+BRDA:87,20832,1,0
+BRDA:87,21197,0,0
+BRDA:87,21197,1,0
+BRDA:87,21713,0,0
+BRDA:87,21713,1,0
+FN:36,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_25>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_25>d::MoveNext()
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+BRDA:37,846,1,0
+BRDA:39,642,0,0
+BRDA:39,642,1,0
+BRDA:37,846,0,0
+FN:47,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_31>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<<ExecuteAsync>b__36_31>d::MoveNext()
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+BRDA:48,846,1,0
+BRDA:50,642,0,0
+BRDA:50,642,1,0
+BRDA:48,846,0,0
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<ExecuteAsync>d__36::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Edit/<ExecuteAsync>d__36::MoveNext()
+DA:4,0
+BRDA:4,425,0,0
+BRDA:4,425,1,0
+LF:10
+LH:0
+BRF:78
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Web/Pages/Catalog/Index.cshtml
+FN:64,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Index/<>c__DisplayClass21_0/<<ExecuteAsync>b__7>d::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Index/<>c__DisplayClass21_0/<<ExecuteAsync>b__7>d::MoveNext()
+DA:65,0
+FN:3,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Index/<ExecuteAsync>d__21::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Web.Pages.Catalog.Pages_Catalog_Index/<ExecuteAsync>d__21::MoveNext()
+DA:4,0
+DA:17,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:48,0
+DA:52,0
+DA:53,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:73,0
+DA:76,0
+DA:79,0
+DA:80,0
+DA:82,0
+BRDA:4,493,0,0
+BRDA:4,493,1,0
+BRDA:17,711,0,0
+BRDA:17,711,1,0
+BRDA:24,4093,1,0
+BRDA:25,1466,0,0
+BRDA:25,1466,1,0
+BRDA:38,2092,0,0
+BRDA:38,2092,1,0
+BRDA:42,2446,0,0
+BRDA:42,2446,1,0
+BRDA:42,2813,0,0
+BRDA:42,2813,1,0
+BRDA:43,3167,0,0
+BRDA:43,3167,1,0
+BRDA:43,3534,0,0
+BRDA:43,3534,1,0
+BRDA:44,3888,0,0
+BRDA:44,3888,1,0
+BRDA:24,4093,0,0
+BRDA:52,4194,0,0
+BRDA:56,4245,0,0
+BRDA:57,4472,0,0
+BRDA:57,4472,1,0
+BRDA:59,4817,0,0
+BRDA:59,4817,1,0
+BRDA:56,4245,1,0
+BRDA:62,6035,1,0
+BRDA:63,5188,0,0
+BRDA:63,5188,1,0
+BRDA:63,5449,0,0
+BRDA:63,5449,1,0
+BRDA:65,5782,0,0
+BRDA:65,5782,1,0
+BRDA:62,6035,0,0
+BRDA:68,6097,0,0
+BRDA:69,6324,0,0
+BRDA:69,6324,1,0
+BRDA:71,6669,0,0
+BRDA:71,6669,1,0
+BRDA:68,6097,1,0
+BRDA:52,4194,1,0
+LF:35
+LH:0
+BRF:42
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Repositories/CatalogBrandRepository.cs
+FN:16,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository>)
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+BRDA:19,11,0,0
+BRDA:19,11,1,0
+BRDA:20,33,0,0
+BRDA:20,33,1,0
+FN:24,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository/<GetAllAsync>d__3::MoveNext()
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+FN:41,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogBrandRepository/<GetByIdAsync>d__4::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+LF:26
+LH:0
+BRF:4
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Repositories/CatalogItemRepository.cs
+FN:16,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository>)
+FNDA:6,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository>)
+DA:17,6
+DA:18,6
+DA:19,6
+DA:20,6
+DA:21,6
+BRDA:19,11,0,0
+BRDA:19,11,1,6
+BRDA:20,33,0,0
+BRDA:20,33,1,6
+FN:67,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<AddAsync>d__5::MoveNext()
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<AddAsync>d__5::MoveNext()
+DA:68,1
+DA:70,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:75,1
+DA:77,1
+DA:78,1
+DA:79,1
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,1
+BRDA:72,187,0,1
+BRDA:72,187,1,0
+FN:103,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<DeleteAsync>d__7::MoveNext()
+DA:104,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,0
+FN:118,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:2,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<ExistsAsync>d__8::MoveNext()
+DA:119,2
+DA:121,2
+DA:122,2
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:129,2
+FN:49,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:2,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<GetByIdAsync>d__4::MoveNext()
+DA:50,2
+DA:52,2
+DA:53,2
+DA:54,2
+DA:55,2
+DA:56,2
+DA:57,2
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,2
+FN:25,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<GetPaginatedAsync>d__3::MoveNext()
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<GetPaginatedAsync>d__3::MoveNext()
+DA:26,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:39,1
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,1
+FN:88,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogItemRepository/<UpdateAsync>d__6::MoveNext()
+DA:89,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+LF:76
+LH:40
+BRF:6
+BRH:3
+FNF:7
+FNH:5
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Repositories/CatalogTypeRepository.cs
+FN:16,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository>)
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository::.ctor(eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+BRDA:19,11,0,0
+BRDA:19,11,1,0
+BRDA:20,33,0,0
+BRDA:20,33,1,0
+FN:24,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository/<GetAllAsync>d__3::MoveNext()
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+FN:41,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Infrastructure.Repositories.CatalogTypeRepository/<GetByIdAsync>d__4::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+LF:26
+LH:0
+BRF:4
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Extensions/ServiceCollectionExtensions.cs
+FN:18,Microsoft.Extensions.DependencyInjection.IServiceCollection eShopLegacyWebForms.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection eShopLegacyWebForms.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+BRDA:22,37,0,0
+BRDA:22,37,1,0
+LF:22
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Data/CatalogDbContext.cs
+FN:14,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogItems()
+FNDA:16,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogItems()
+DA:15,16
+FN:15,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogBrands()
+FNDA:6,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogBrands()
+DA:16,6
+FN:16,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogType> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogTypes()
+FNDA:6,Microsoft.EntityFrameworkCore.DbSet`1<eShopLegacyWebForms.Domain.Entities.CatalogType> eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::get_CatalogTypes()
+DA:17,6
+FN:19,System.Void eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+FN:10,System.Void eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext>)
+FNDA:6,System.Void eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<eShopLegacyWebForms.Infrastructure.Data.CatalogDbContext>)
+DA:11,6
+DA:12,6
+DA:13,6
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:5
+FNH:5
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Data/Configurations/CatalogBrandConfiguration.cs
+FN:12,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogBrandConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand>)
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogBrandConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand>)
+DA:13,1
+DA:14,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+LF:9
+LH:9
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Data/Configurations/CatalogItemConfiguration.cs
+FN:12,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogItemConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>)
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogItemConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>)
+DA:13,1
+DA:14,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:26,1
+DA:27,1
+DA:28,1
+DA:30,1
+DA:31,1
+DA:33,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+DA:40,1
+DA:41,1
+DA:42,1
+DA:43,1
+DA:44,1
+LF:24
+LH:24
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Infrastructure/Data/Configurations/CatalogTypeConfiguration.cs
+FN:12,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogTypeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogType>)
+FNDA:1,System.Void eShopLegacyWebForms.Infrastructure.Data.Configurations.CatalogTypeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<eShopLegacyWebForms.Domain.Entities.CatalogType>)
+DA:13,1
+DA:14,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+LF:9
+LH:9
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/Services/CatalogService.cs
+FN:21,System.Void eShopLegacyWebForms.Application.Services.CatalogService::.ctor(eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogItemRepository,eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogBrandRepository,eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogTypeRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Application.Services.CatalogService>)
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService::.ctor(eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogItemRepository,eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogBrandRepository,eShopLegacyWebForms.Domain.Interfaces.Repositories.ICatalogTypeRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Application.Services.CatalogService>)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+BRDA:29,11,0,0
+BRDA:29,11,1,0
+BRDA:30,33,0,0
+BRDA:30,33,1,0
+BRDA:31,55,0,0
+BRDA:31,55,1,0
+BRDA:32,78,0,0
+BRDA:32,78,1,0
+BRDA:33,101,0,0
+BRDA:33,101,1,0
+FN:98,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<CreateCatalogItemAsync>d__10::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<CreateCatalogItemAsync>d__10::MoveNext()
+DA:99,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:111,0
+FN:53,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<FindCatalogItemAsync>d__7::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<FindCatalogItemAsync>d__7::MoveNext()
+DA:54,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+FN:83,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogBrandsAsync>d__9::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogBrandsAsync>d__9::MoveNext()
+DA:84,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+FN:38,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogItemsPaginatedAsync>d__6::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogItemsPaginatedAsync>d__6::MoveNext()
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+FN:68,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogTypesAsync>d__8::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<GetCatalogTypesAsync>d__8::MoveNext()
+DA:69,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:80,0
+FN:135,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<RemoveCatalogItemAsync>d__12::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<RemoveCatalogItemAsync>d__12::MoveNext()
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:153,0
+BRDA:141,234,0,0
+BRDA:141,234,1,0
+FN:114,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<UpdateCatalogItemAsync>d__11::MoveNext()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogService/<UpdateCatalogItemAsync>d__11::MoveNext()
+DA:115,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:132,0
+BRDA:120,237,0,0
+BRDA:120,237,1,0
+LF:90
+LH:0
+BRF:14
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/Services/CatalogServiceMock.cs
+FN:26,System.Threading.Tasks.Task`1<System.ValueTuple`2<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>,System.Int64>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogItemsPaginatedAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.ValueTuple`2<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>,System.Int64>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogItemsPaginatedAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+FN:38,System.Threading.Tasks.Task`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Application.Services.CatalogServiceMock::FindCatalogItemAsync(System.Int32,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Application.Services.CatalogServiceMock::FindCatalogItemAsync(System.Int32,System.Threading.CancellationToken)
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+FN:45,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogType>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogTypesAsync(System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogType>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogTypesAsync(System.Threading.CancellationToken)
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+FN:51,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogBrandsAsync(System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand>> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetCatalogBrandsAsync(System.Threading.CancellationToken)
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+FN:57,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::CreateCatalogItemAsync(eShopLegacyWebForms.Domain.Entities.CatalogItem,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::CreateCatalogItemAsync(eShopLegacyWebForms.Domain.Entities.CatalogItem,System.Threading.CancellationToken)
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+FN:65,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::UpdateCatalogItemAsync(eShopLegacyWebForms.Domain.Entities.CatalogItem,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::UpdateCatalogItemAsync(eShopLegacyWebForms.Domain.Entities.CatalogItem,System.Threading.CancellationToken)
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:73,0
+DA:74,0
+DA:75,0
+BRDA:69,86,0,0
+BRDA:69,86,1,0
+FN:77,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::RemoveCatalogItemAsync(System.Int32,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task eShopLegacyWebForms.Application.Services.CatalogServiceMock::RemoveCatalogItemAsync(System.Int32,System.Threading.CancellationToken)
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+BRDA:81,81,0,0
+BRDA:81,81,1,0
+FN:89,System.Void eShopLegacyWebForms.Application.Services.CatalogServiceMock::ComposeCatalogItems(System.Collections.Generic.List`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>)
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogServiceMock::ComposeCatalogItems(System.Collections.Generic.List`1<eShopLegacyWebForms.Domain.Entities.CatalogItem>)
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+FN:97,System.Collections.Generic.List`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogItems()
+FNDA:0,System.Collections.Generic.List`1<eShopLegacyWebForms.Domain.Entities.CatalogItem> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogItems()
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+FN:116,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogBrands()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogBrand> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogBrands()
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+FN:128,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogType> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogTypes()
+FNDA:0,System.Collections.Generic.IEnumerable`1<eShopLegacyWebForms.Domain.Entities.CatalogType> eShopLegacyWebForms.Application.Services.CatalogServiceMock::GetPreconfiguredCatalogTypes()
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+FN:16,System.Void eShopLegacyWebForms.Application.Services.CatalogServiceMock::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Application.Services.CatalogServiceMock>)
+FNDA:0,System.Void eShopLegacyWebForms.Application.Services.CatalogServiceMock::.ctor(Microsoft.Extensions.Logging.ILogger`1<eShopLegacyWebForms.Application.Services.CatalogServiceMock>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+BRDA:19,11,0,0
+BRDA:19,11,1,0
+LF:95
+LH:0
+BRF:6
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/Mappings/MappingProfile.cs
+FN:11,System.Void eShopLegacyWebForms.Application.Mappings.MappingProfile::.ctor()
+FNDA:0,System.Void eShopLegacyWebForms.Application.Mappings.MappingProfile::.ctor()
+DA:12,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:31,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+LF:19
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/Extensions/ServiceCollectionExtensions.cs
+FN:18,Microsoft.Extensions.DependencyInjection.IServiceCollection eShopLegacyWebForms.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection eShopLegacyWebForms.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+BRDA:33,57,0,0
+BRDA:33,57,1,0
+BRDA:35,72,0,0
+BRDA:35,72,1,0
+LF:21
+LH:0
+BRF:4
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/CatalogBrandDto.cs
+FN:7,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogBrandDto::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogBrandDto::get_Id()
+DA:8,0
+FN:8,System.String eShopLegacyWebForms.Application.DTOs.CatalogBrandDto::get_Brand()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogBrandDto::get_Brand()
+DA:9,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/CatalogItemCreateDto.cs
+FN:11,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Name()
+DA:12,0
+FN:13,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Description()
+DA:14,0
+FN:16,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_Price()
+DA:17,0
+FN:18,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_PictureFileName()
+DA:19,0
+FN:21,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_CatalogTypeId()
+DA:22,0
+FN:24,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_CatalogBrandId()
+DA:25,0
+FN:27,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_AvailableStock()
+DA:28,0
+FN:30,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_RestockThreshold()
+DA:31,0
+FN:33,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_MaxStockThreshold()
+DA:34,0
+FN:35,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemCreateDto::get_OnReorder()
+DA:36,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/CatalogItemDto.cs
+FN:7,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Id()
+DA:8,0
+FN:8,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Name()
+DA:9,0
+FN:9,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Description()
+DA:10,0
+FN:10,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_Price()
+DA:11,0
+FN:11,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_PictureFileName()
+DA:12,0
+FN:12,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_PictureUri()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_PictureUri()
+DA:13,0
+FN:13,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogTypeId()
+DA:14,0
+FN:14,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogTypeName()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogTypeName()
+DA:15,0
+FN:15,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogBrandId()
+DA:16,0
+FN:16,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogBrandName()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_CatalogBrandName()
+DA:17,0
+FN:17,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_AvailableStock()
+DA:18,0
+FN:18,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_RestockThreshold()
+DA:19,0
+FN:19,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_MaxStockThreshold()
+DA:20,0
+FN:20,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemDto::get_OnReorder()
+DA:21,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:14
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/CatalogItemUpdateDto.cs
+FN:9,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Id()
+DA:10,0
+FN:13,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Name()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Name()
+DA:14,0
+FN:15,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Description()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Description()
+DA:16,0
+FN:18,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Price()
+FNDA:0,System.Decimal eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_Price()
+DA:19,0
+FN:20,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_PictureFileName()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_PictureFileName()
+DA:21,0
+FN:23,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_CatalogTypeId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_CatalogTypeId()
+DA:24,0
+FN:26,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_CatalogBrandId()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_CatalogBrandId()
+DA:27,0
+FN:29,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_AvailableStock()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_AvailableStock()
+DA:30,0
+FN:32,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_RestockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_RestockThreshold()
+DA:33,0
+FN:35,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_MaxStockThreshold()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_MaxStockThreshold()
+DA:36,0
+FN:37,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_OnReorder()
+FNDA:0,System.Boolean eShopLegacyWebForms.Application.DTOs.CatalogItemUpdateDto::get_OnReorder()
+DA:38,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/CatalogTypeDto.cs
+FN:7,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogTypeDto::get_Id()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.CatalogTypeDto::get_Id()
+DA:8,0
+FN:8,System.String eShopLegacyWebForms.Application.DTOs.CatalogTypeDto::get_Type()
+FNDA:0,System.String eShopLegacyWebForms.Application.DTOs.CatalogTypeDto::get_Type()
+DA:9,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/src/eShopLegacyWebForms.Application/DTOs/PaginatedItemsDto.cs
+FN:7,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_ActualPage()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_ActualPage()
+DA:8,0
+FN:8,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_ItemsPerPage()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_ItemsPerPage()
+DA:9,0
+FN:9,System.Int64 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_TotalItems()
+FNDA:0,System.Int64 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_TotalItems()
+DA:10,0
+FN:10,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_TotalPages()
+FNDA:0,System.Int32 eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_TotalPages()
+DA:11,0
+FN:11,System.Collections.Generic.IEnumerable`1<TDto> eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_Data()
+FNDA:0,System.Collections.Generic.IEnumerable`1<TDto> eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::get_Data()
+DA:12,0
+FN:13,System.Void eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::.ctor(System.Int32,System.Int32,System.Int64,System.Collections.Generic.IEnumerable`1<TDto>)
+FNDA:0,System.Void eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::.ctor(System.Int32,System.Int32,System.Int64,System.Collections.Generic.IEnumerable`1<TDto>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:22,System.Void eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::.ctor()
+FNDA:0,System.Void eShopLegacyWebForms.Application.DTOs.PaginatedItemsDto`1::.ctor()
+DA:23,0
+DA:24,0
+DA:25,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/app/.nuget/packages/microsoft.net.test.sdk/17.9.0/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs
+FN:3,System.Void AutoGeneratedProgram::Main(System.String[])
+FNDA:0,System.Void AutoGeneratedProgram::Main(System.String[])
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record

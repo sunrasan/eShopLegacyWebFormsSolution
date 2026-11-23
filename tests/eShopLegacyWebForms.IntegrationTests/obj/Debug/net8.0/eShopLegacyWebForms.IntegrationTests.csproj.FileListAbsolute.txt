@@ -470,3 +470,4 @@
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/obj/Debug/net8.0/eShopLegacyWebForms.IntegrationTests.pdb
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/obj/Debug/net8.0/eShopLegacyWebForms.IntegrationTests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/obj/Debug/net8.0/ref/eShopLegacyWebForms.IntegrationTests.dll
+/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/bin/Debug/net8.0/CoverletSourceRootsMapping_eShopLegacyWebForms.IntegrationTests

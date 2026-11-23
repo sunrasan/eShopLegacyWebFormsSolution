@@ -470,3 +470,4 @@
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.UnitTests/bin/Debug/net8.0/eShopLegacyWebForms.Web.dll
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.UnitTests/bin/Debug/net8.0/eShopLegacyWebForms.Web.pdb
 /modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.UnitTests/obj/Debug/net8.0/MvcTestingAppManifest.json
+/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_eShopLegacyWebForms.UnitTests

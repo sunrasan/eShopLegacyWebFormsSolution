@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qq1POKToG10=",
+  "dgSpecHash": "02VRT4PKKqs=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP656618/transformed-code/116/studio-workspace/eShopLegacyWebForms/tests/eShopLegacyWebForms.IntegrationTests/eShopLegacyWebForms.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/app/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/app/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/app/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/app/.nuget/packages/coverlet.msbuild/10.1.1/coverlet.msbuild.10.1.1.nupkg.sha512",
     "/app/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
     "/app/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/app/.nuget/packages/microsoft.aspnetcore.mvc.testing/8.0.0/microsoft.aspnetcore.mvc.testing.8.0.0.nupkg.sha512",
